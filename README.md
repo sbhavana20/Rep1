@@ -1,4 +1,4 @@
-#What it does
+# What it does
 
 
 The module generate_fuzzy is a flask application having different function to generate fuzzy names and fuzzy address for given value.
