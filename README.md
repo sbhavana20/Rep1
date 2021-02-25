@@ -8,6 +8,7 @@ Python version 3
 
 ## Build 
 Command to run the tool 
+
 `python3 generate_fuzzy.py`
 
 ## How to execute
