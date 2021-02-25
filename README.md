@@ -18,7 +18,7 @@ Different routes present
 
 1. /score/name/<name>?max_count=&min_score=
 
-In this route name is to be provided along with query parameters max_count(maximum number of fuzzy name) and min_score(minimum score of the fuzzy name).We can set min_score to zero to get all possible fuzzy names.
+In this route name is to be provided along with query parameters max_count(maximum number of fuzzy name) and min_score(minimum score of the fuzzy name). We can set min_score to zero to get all possible fuzzy names.
 
 Example
 - /score/name/john?max_count=3&min_score=50
@@ -45,7 +45,7 @@ Example
 This route takes a address and returns all possible fuzzy address along with its score , it takes each word of the address and find fuzzy word and and replace it with the fuzzy word and if not word has a fuzzy word then it appends ',' at different postions.
 
 Example
-- /score//address/42 Fairhaven Commons Way?max_count=5&min_score=0 (when fuzzy word is found)
+- /score/address/42 Fairhaven Commons Way?max_count=5&min_score=0 (when fuzzy word is found)
 
 output :
 
@@ -71,7 +71,7 @@ output :
   ]
 }
 ```
-- /score//address/777 Brockton Avenue?max_count=5&min_score=0 (when fuzzy word is not found)
+- /score/address/777 Brockton Avenue?max_count=5&min_score=0 (when fuzzy word is not found)
 
 output :
 
