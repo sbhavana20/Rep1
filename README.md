@@ -8,6 +8,8 @@ It is used to :
 3.Generate json object containing fuzzy address for the provided address.
 4.Generate json object with all possible fuzzy address along with its score.
 
+python3 generate_fuzzy.py
+
 Different routes
 1./name/<name> : 
 example:
