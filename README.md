@@ -19,14 +19,14 @@ route: /name/sara
 output:{ "matches": "sarah" },
        { "matches": "serra" }
 
-if not matching fuzzy word is found then output will be {"error": "no fuzzy words found"}
+-if not matching fuzzy word is found then output will be {"error": "no fuzzy words found"}
 
 
 2./address/<address>
 example:
 route: /address/42 Fairhaven Commons Way  
 output:{ "matches": "42 Fairhaven Commons waye" }
-If a fuzzy word is found for any of the word then string replaced with fuzzy word is sent.
+-If a fuzzy word is found for any of the word then string replaced with fuzzy word is sent.
 
 route: /address/777 Brockton Avenue
 output :{ "matches": "777 , Brockton Avenue" }
