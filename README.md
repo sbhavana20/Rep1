@@ -4,7 +4,7 @@ The module generate_fuzzy is a flask application having different function to ge
 ## Pre-requisite
 Python version 3
 
-[requirements](../b1/requiremeny.txt)
+[requirements](requiremeny.txt)
 
 ## Build 
 Command to run the tool 
