@@ -4,7 +4,7 @@ The module generate_fuzzy is a flask application having different function to ge
 ## Pre-requisite
 Python version 3
 
-[requirements](requiremeny.txt)
+[requirements](./requirement.txt)
 
 ## Build 
 Command to run the tool 
@@ -13,9 +13,11 @@ Command to run the tool
 
 ## How to execute
 It runs in port number:5000
+
 Different routes present
 
-1./score/name/<name>?max_count=&min_score=
+1. /score/name/<name>?max_count=&min_score=
+
 In this route name is to be provided along with query parameters max_count(maximum number of fuzzy name) and min_score(minimum score of the fuzzy name).We can set min_score to zero to get all possible fuzzy names.
 
 Example
@@ -33,10 +35,13 @@ Example
       "fuzzy_word": "jonn", 
       "score": 75
     }
-  ]
-}
-```
-2./score/address/<address>?max_count=&min_score=
+   ]
+  }
+
+  ```
+ 
+2. /score/address/<address>?max_count=&min_score=
+
 This route takes a address and returns all possible fuzzy address along with its score , it takes each word of the address and find fuzzy word and and replace it with the fuzzy word and if not word has a fuzzy word then it appends ',' at different postions.
 
 Example
